@@ -7,6 +7,11 @@ Class {
 	#category : #Dice
 }
 
+{ #category : #accessing }
+Die >> faces [ 
+^faces
+]
+
 { #category : #initialization }
 Die >> initialize [ 
 faces:=6
